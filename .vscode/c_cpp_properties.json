@@ -11,9 +11,16 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/msys64/ucrt64/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-std=c23",
+                "-Os",
+                "-DF_CPU=16000000UL",
+                "-mmcu=atmega328p"
+            ]
         }
     ],
     "version": 4
